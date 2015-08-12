@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require_relative 'lib/mushbot.rb'
+
+token = 'telegram-bot-token-string'
+prefsFile = "/path/to/yaml/file/for/storing/weather/preferences"
+bot = MushBot.new(token, prefsFile)
+bot.start
+
